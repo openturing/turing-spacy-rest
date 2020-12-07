@@ -1,0 +1,6 @@
+hug>=2.4.0,<3.0.0
+hug-middleware-cors>=1.0.0,<2.0.0
+spacy>=2.3.2,<2.4.0
+waitress>=1.0.2,<2.0.0
+
+# https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-2.0.0/pt_core_news_sm-2.0.0.tar.gz#egg=pt_core_news_sm==2.0.0
