@@ -4,8 +4,9 @@ from __future__ import unicode_literals
 import hug
 from hug_middleware_cors import CORSMiddleware
 import spacy
+from pathlib import Path
 
-
+output_dir=Path('/appl/training/model')
 MODELS = {
     'ca': spacy.load('ca')
 }
